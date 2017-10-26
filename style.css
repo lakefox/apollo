@@ -62,7 +62,7 @@ form input:last-child {
   color: white;
   font-family: "Lobster", sans-serif;
   margin-top: 35px;
-  -webkit-display: none;
+  -webkit-apperance: none;
 }
 
 form input:nth-child(2):focus {
