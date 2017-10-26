@@ -12,6 +12,12 @@ html, body {
   margin-left: 20px;
 }
 
+.top h1 {
+  background: linear-gradient(#2885ed, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .content {
   width: 80%;
   margin: auto;
