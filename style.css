@@ -57,15 +57,19 @@ form input {
 }
 
 form input:last-child {
-  background: #2885ed;
+  background: purple;
   border: none;
   color: white;
   font-family: "Lobster", sans-serif;
   margin-top: 35px;
 }
 
-form input:focus {
+form input:nth-child(2):focus {
   border-color: #2885ed;
+}
+
+form input:focus {
+  border-color: purple;
   background: #fff;
   transition: 600ms ease;
 }
@@ -89,7 +93,7 @@ form textarea {
 }
 
 form textarea:focus {
-  border-color: #2885ed;
+  border-color: purple;
   background: #fff;
   transition: 600ms ease;
 }
