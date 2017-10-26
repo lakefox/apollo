@@ -20,6 +20,7 @@ html, body {
   max-width: 1000px;
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .content p {
@@ -78,6 +79,7 @@ form textarea {
   border: none;
   border-left: 3px solid black;
   transition: 600ms ease;
+  outline: none;
 }
 
 form textarea:focus {
